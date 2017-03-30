@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="robosoft.com.newsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="robosoft.com.jsonparser.common.ui.DashBoardActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="robosoft.com.jsonparser.news.ui.NewsDescriptionActivity"
+            android:label="@string/title_activity_news_description"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="robosoft.com.jsonparser.images.ui.ImageDescriptionActivity"
+            android:label="@string/title_activity_image_description"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="robosoft.com.jsonparser.videos.ui.VideoPlayActivity"
+            android:label="@string/title_activity_video_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2911548e033cc329ee6ce585d80dec95788f4223" />
+
+        <activity
+            android:name="robosoft.com.jsonparser.common.ui.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

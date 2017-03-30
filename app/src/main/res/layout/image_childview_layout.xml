@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/furniture_networkimageview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_120"
+        android:background="@drawable/image_background"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/furniture_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="@dimen/size_90"
+        android:background="@color/colorblacktransparent"
+        android:maxLines="2"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_10"
+        tools:text="Haloooooo" />
+
+    <TextView
+        android:id="@+id/furniture_description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/furniture_networkimageview"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <ToggleButton
+        android:id="@+id/favorite_togglebutton"
+        android:layout_width="@dimen/size_20"
+        android:layout_height="@dimen/size_20"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"
+        android:background="@drawable/btn_background"
+        android:focusable="false"
+        android:src="@drawable/favoritestar"
+        android:textOff=""
+        android:textOn="" />
+</RelativeLayout>

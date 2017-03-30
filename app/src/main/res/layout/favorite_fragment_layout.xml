@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="robosoft.com.newsapplication.FavoriteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/favorite_imageview"
+        android:src="@drawable/rani"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/favorite_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/empty_message_text"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        tools:text="Halooooooooooooooooooooooooooooo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

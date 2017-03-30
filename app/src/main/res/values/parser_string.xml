@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_download_error">Problem with download</string>
+    <string name="msg_refresh">Refreshed</string>
+    <string name="news_string">News</string>
+    <string name="image_string">Image</string>
+    <string name="video_string">Video</string>
+    <string name="favorite_string">Favourite</string>
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_news_addedAsFavorite">News article added as favorite</string>
+    <string name="msg_news_deletedAsFavorite">News article deleted from favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_news_description">NewsDescriptionActivity</string>
+    <string name="title_activity_image_description">ImageDescriptionActivity</string>
+    <string name="title_activity_video_play">VideoPlayActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="msg_item_addedAsFavorite">Item added as favorite</string>
+    <string name="msg_item_deletedFromFavorite">Item deleted from favorite</string>
+    <string name="msg_error_insert">Problem with insertion</string>
+    <string name="msg_error_delete">Problem with deletion</string>
+    <string name="video_title_adikapyare">Adi Kapyare Kootamani</string>
+    <string name="video_title_moideen">Enn Ninte Moideen</string>
+    <string name="video_title_anarkali">Anarkali</string>
+    <string name="video_title_rani">Rani Padmini</string>
+    <string name="video_title_charlie">Charlie</string>
+    <string name="video_title_amar">Amar Akbar Anthony</string>
+    <string name="video_title_josutty">Life of josutty</string>
+    <string name="video_title_kunjiramayanam">Kunjiramayanam</string>
+    <string name="video_title_njanalla">Ayal njanalla</string>
+    <string name="video_title_bhaskar">Bhaskar the Rascal</string>
+    <string name="video_url">9ZaEPeaucIU</string>
+    <string name="msg_empty_text">No items to display</string>
+    <string name="msg_warning">Warning</string>
+    <string name="msg_dialogmessage">Do you want to remove the item from favorite</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_cancel">CANCEL</string>
+    <string name="snackbar_title">DATA REMOVED</string>
+    <string name="snackbar_message">UNDO</string>
+</resources>
